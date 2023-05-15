@@ -1,31 +1,4 @@
-/* 
- ________       ___    ___ _____ ______   ________  ________  ________     
-|\   ____\     |\  \  /  /|\   _ \  _   \|\   __  \|\   ___ \|\   ___ \    
-\ \  \___|_    \ \  \/  / | \  \\\__\ \  \ \  \|\  \ \  \_|\ \ \  \_|\ \   
- \ \_____  \    \ \    / / \ \  \\|__| \  \ \  \\\  \ \  \ \\ \ \  \ \\ \  
-  \|____|\  \    \/  /  /   \ \  \    \ \  \ \  \\\  \ \  \_\\ \ \  \_\\ \ 
-    ____\_\  \ __/  / /      \ \__\    \ \__\ \_______\ \_______\ \_______\
-   |\_________\\___/ /        \|__|     \|__|\|_______|\|_______|\|_______|
-   \|_________\|___|/                                                      
-                                                                           
 
-Agency : SYMODD
-URL : HTTP://WWW.SYMODD.COM/
-E-mail : CONTACT@SYMODD.COM/
----------
-Designer : MEHDI AYACHE
-Front-end Dev. : AISSA BOUGUERN
----------  
-Client : SYMODD
-Website : HTTP://WWW.SYMODD.COM/  
----------
-Date : 29.01.2015 
-Last Edit : 29.01.2015
-City : AGADIR
-Country : MOROCCO
----------
-
-*/     
 @charset "UTF-8";
 
 html, body, div, span, applet, object, iframe,
@@ -128,7 +101,7 @@ html.portfolio body{
 	height: 63px; 
 	font-size:0;
 	text-indent: -9999px; 
-	background: url('../img/logo.png') no-repeat;  
+	background: url('http://symodd.com/img/logo.png') no-repeat;  
 	margin-right: 5px;
 	background-size: contain;
 }
@@ -138,7 +111,7 @@ html.portfolio body{
 	height: 60px;    
 	font-size:0;  
 	text-indent: -9999px;   
-	background: url('../img/symodd-logo.png') no-repeat;       
+	background: url('http://symodd.com/img/symodd-logo.png') no-repeat;       
 	background-size: contain;
 } 
 
@@ -422,7 +395,7 @@ p{
 	margin-top: -6px;  
 	width: 16px;  
 	height: 12px;   
-	background: url('../img/sprite.png') no-repeat; 
+	background: url('http://symodd.com/img/sprite.png') no-repeat; 
 	-webkit-transition: 0.3s all ease;   
 	transition: 0.3s all ease;
 }
@@ -478,24 +451,24 @@ p{
 	display: none;  
 }
 .content .img{ 
-	background: url('../img/content.png') no-repeat center center;   
+	background: url('http://symodd.com/img/content.png') no-repeat center center;   
 }
 .audiovisual .img{ 
-	background: url('../img/camera-img.png') no-repeat center center;     
+	background: url('http://symodd.com/img/camera-img.png') no-repeat center center;     
 }
 .mobile .img{ 
-	background: url('../img/mobile-img.png') no-repeat center center;   
+	background: url('http://symodd.com/img/mobile-img.png') no-repeat center center;   
 }
 .advertising .img{ 
-	background: url('../img/displaying.png') no-repeat center center;      
+	background: url('http://symodd.com/img/displaying.png') no-repeat center center;      
 }
 .web .img{ 
-	background: url('../img/laptop-img.png') no-repeat center center;   
+	background: url('http://symodd.com/img/laptop-img.png') no-repeat center center;   
 	height: 634px;
 	margin-top: -356px;
 }
 .design .img{ 
-	background: url('../img/design-img.png') no-repeat center center;     
+	background: url('http://symodd.com/img/design-img.png') no-repeat center center;     
 }
 .details{
 	width: 533px;
@@ -506,7 +479,7 @@ p{
 	margin-top: -320px;   
 	margin-left: -265px; 
 	z-index: 20; 
-	background: url('../img/details.png') no-repeat center center;    
+	background: url('http://symodd.com/img/details.png') no-repeat center center;    
 }
 .open-link .action{  
 	color: #fff;  
@@ -522,7 +495,7 @@ p{
 			transition: 0.3s all ease; 
 }
 .open-link .icon{
-	background: url('../img/plus.png') no-repeat center center;   
+	background: url('http://symodd.com/img/plus.png') no-repeat center center;   
 	width:16px;
 	height: 16px;  
 	font-weight: 300;
@@ -604,7 +577,7 @@ p{
 	margin-top: -289px;   
 	margin-left: -266px; 
 	z-index: 20; 
-	background: url('../img/details-hover.png') no-repeat center center;    
+	background: url('http://symodd.com/img/details-hover.png') no-repeat center center;    
 	       
 	padding-top: 140px;
 }
@@ -709,7 +682,7 @@ p{
 	height: 108px; 
 	margin-left: -48px;
 	margin-top: -54px;
-	background: url('../img/loading-symodd-sprite.png') no-repeat;
+	background: url('http://symodd.com/img/loading-symodd-sprite.png') no-repeat;
 	-webkit-animation-name: loading;
           animation-name: loading; 
     -webkit-animation-iteration-count: infinite;
@@ -877,7 +850,7 @@ p{
 	text-indent: -9999px;
 	width: 23px;
 	height: 25px; 
-	background: url("../img/social.png") no-repeat;  
+	background: url("http://symodd.com/img/social.png") no-repeat;  
 	margin-bottom: 10px; 
     
 	opacity: 0.3; 
@@ -1382,7 +1355,7 @@ body.open-portfolio .portfolio-container.active{
 .nav-portfolio > span{
 	width: 30px;
 	height: 48px;
-	background: url("../img/navigation.png") no-repeat;  
+	background: url("http://symodd.com/img/navigation.png") no-repeat;  
 	display: inline-block;
 }
 .nav-portfolio.previous > span{
@@ -2449,7 +2422,7 @@ and (max-width : 400px){
 
 /* NOMINEE */
 
-#awwwards.honorable.black a{
+/* #awwwards.honorable.black a{
 	background-image: url(ribbons/awwwards_honorable_black.png);
 }
 #awwwards.honorable.silver a{
@@ -2460,13 +2433,13 @@ and (max-width : 400px){
 }
 #awwwards.honorable.green a{
 	background-image: url(ribbons/awwwards_honorable_green.png);
-}
+} */
 
 @media only screen and (-Webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2),	only screen and (min-device-pixel-ratio: 1.5) {
 
 	/* NOMINEE */
 
-	#awwwards.honorable.black a{
+	/* #awwwards.honorable.black a{
 		background-image: url(ribbons/awwwards_honorable_black@2x.png);
 	}
 	#awwwards.honorable.silver a{
@@ -2477,7 +2450,7 @@ and (max-width : 400px){
 	}
 	#awwwards.honorable.green a{
 		background-image: url(ribbons/awwwards_honorable_green@2x.png);
-	}
+	} */
 
 }
 

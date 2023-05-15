@@ -1,4 +1,6 @@
 import './App.css';
+import './style.css';
+import './player.css';
 
 function App() {
   return (<>
