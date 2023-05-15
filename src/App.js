@@ -1,5 +1,12 @@
+import React from 'react';
+
 function App() {
+
+
+
+
   return (<>
+    <div id="gradient-1" className="gradient animated fadeIn"></div>
     <div className="opa"><a href="http://www.onepageawards.com/website/symodd/" target="_blank" rel="noreferrer">SYMODD featured on OPA Awards</a></div>
     <div id="awwwards" className="honorable white bottom right">
       <a href="http://www.awwwards.com/best-websites/symodd-creative-agency/" target="_blank" rel="noreferrer">SYMODD Creative Agency</a>
@@ -19,11 +26,11 @@ function App() {
           <div className="nav-layer first"></div>
           <div className="nav-layer second"></div>
           <ul id="navigation">
-            <li data-menuanchor="home"><a href="http://symodd.com/#home" onclick="goTo(1);return false;" className="animated delay-0point3">Home</a></li>
-            <li data-menuanchor="team"><a href="http://symodd.com/#team" onclick="goTo(2);return false;" className="animated delay-0point6">Team</a></li>
-            <li data-menuanchor="audiovisual"><a href="http://symodd.com/#audiovisual" onclick="goTo(3);return false;" className="animated delay-0point9">Services</a></li>
-            <li data-menuanchor="blog"><a href="http://symodd.com/#blog" onclick="goTo(9);return false;" className="animated delay-1point2">Blog</a></li>
-            <li data-menuanchor="contact"><a href="http://symodd.com/#contact" onclick="goTo(10);return false;" className="animated delay-1point5">Contact</a></li>
+            <li data-menuanchor="home"><a href="http://symodd.com/#home" onClick="goTo(1);return false;" className="animated delay-0point3">Home</a></li>
+            <li data-menuanchor="team"><a href="http://symodd.com/#team" onClick="goTo(2);return false;" className="animated delay-0point6">Team</a></li>
+            <li data-menuanchor="audiovisual"><a href="http://symodd.com/#audiovisual" onClick="goTo(3);return false;" className="animated delay-0point9">Services</a></li>
+            <li data-menuanchor="blog"><a href="http://symodd.com/#blog" onClick="goTo(9);return false;" className="animated delay-1point2">Blog</a></li>
+            <li data-menuanchor="contact"><a href="http://symodd.com/#contact" onClick="goTo(10);return false;" className="animated delay-1point5">Contact</a></li>
 
             <li className="lang-switcher en"><a href="http://symodd.com/" title="English version" className="animated delay-1point5">EN</a></li>
             <li className="lang-switcher fr"><a href="http://symodd.com/fr" title="Version française" className="animated delay-1point5">FR</a></li>
@@ -43,7 +50,7 @@ function App() {
         <h1 className="animated fadeInDown delay-0point3" data-animation-in="fadeInDown delay-0point3" data-animation-out="fadeOutUp delay-1point0" ><span>symodd</span> is an Agadir based <br></br><span>digital</span> &amp; <span>audiovisual production</span><br></br> agency</h1>
         <div className="video">
           <div className="video-container">
-            <iframe title="iframe" src="http://symodd.com/img/118125535.html" width="960" height="540" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+            <iframe title="iframe" src="http://symodd.com/img/118125535.html" width="960" height="540" frameBorder="0" webkitallowfullscreen="" mozallowfullscreen="" allowFullScreen=""></iframe>
           </div>
           <span className="close-video"></span>
         </div>
@@ -427,7 +434,6 @@ get in touch with us, even just to say hi :-)            </p>
 
     <div className="loadpage"></div>
 
-    <script dangerouslySetInnerHTML={{__html: `(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()`}}></script>
 <div id="fp-nav" className="right" style={{color: 'rgb(0, 0, 0)', marginTop: '-103.5px'}}><ul><li><a href="http://symodd.com/#" className="active"><span></span></a></li><li><a href="http://symodd.com/#"><span></span></a></li><li><a href="http://symodd.com/#"><span></span></a></li><li><a href="http://symodd.com/#"><span></span></a></li><li><a href="http://symodd.com/#"><span></span></a></li><li><a href="http://symodd.com/#"><span></span></a></li><li><a href="http://symodd.com/#"><span></span></a></li><li><a href="http://symodd.com/#"><span></span></a></li><li><a href="http://symodd.com/#"><span></span></a></li><li><a href="http://symodd.com/#"><span></span></a></li></ul></div>
 
    
